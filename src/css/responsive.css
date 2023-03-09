@@ -1,0 +1,46 @@
+@media (max-width:375px) {
+    body {
+        background: url(../images/bg-mobile.svg) no-repeat;
+    background-color:hsl(257, 40%, 49%);
+    background-size: cover;
+    }
+
+    .header{
+        padding: 20px;
+        margin-left: -5px
+    }
+
+    .header img{
+        height: 40px;
+        width: 135px;
+    }
+
+    .info img {
+        height: 200px;    
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-right: 500px;
+        margin-bottom: 50px;
+    }
+
+    .info h1 {
+        margin-right: 130px;
+    }
+
+    .info p {
+        margin-right: 130px;
+    }
+
+    .info a {
+        margin-right: 130px;
+    }
+
+    .footer {
+        margin-right: 420px;
+    }
+}
